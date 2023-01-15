@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 89%;
+  padding: 0 0 24px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 91%;
+  }
+}
+
+@media (min-width:1280px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93%;
+  }
+}

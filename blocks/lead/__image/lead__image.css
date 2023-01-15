@@ -1,0 +1,9 @@
+.lead__image {
+  background-image: url(../../../images/kalegin-michail.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 9% 3% 27%;
+  box-sizing: border-box;
+  margin: 0;
+}
