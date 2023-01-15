@@ -1,0 +1,34 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto 64px;
+  height: 200px;
+}
+
+@media (min-width:768px) {
+  .cover{
+    height: 480px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media (min-width:1024px) {
+  .cover{
+    height: 640px;
+    margin: 0 auto 92px;
+  }
+}
+
+@media (min-width:1280px) {
+  .cover{
+    width: 93%;
+    height: 740px;
+    margin: 0 auto 92px;
+  }
+}
