@@ -8,19 +8,36 @@
   padding: 0;
   width: 100%;
   margin: 0 auto 64px;
-  height: 200px;
+  background-image: url(../../images/__background.png);
+  min-height: 200px;
+  background-size: cover;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }
 
 @media (min-width:768px) {
   .cover{
-    height: 480px;
+    min-height: 480px;
     margin: 0 auto 88px;
   }
 }
 
 @media (min-width:1024px) {
   .cover{
-    height: 640px;
+    min-height: 640px;
     margin: 0 auto 92px;
   }
 }
@@ -28,7 +45,6 @@
 @media (min-width:1280px) {
   .cover{
     width: 93%;
-    height: 740px;
-    margin: 0 auto 92px;
+    min-height: 740px;
   }
 }

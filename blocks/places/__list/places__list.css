@@ -1,7 +1,6 @@
-.header__lang-links {
+.places__list {
   list-style-type: none;
   padding: 0;
-  display: flex;
   margin: 0;
-  gap: 18px;
+  width: 100%;
 }

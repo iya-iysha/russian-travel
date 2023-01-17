@@ -16,16 +16,12 @@
 
 @media (min-width: 1024px) {
   .footer {
-    flex-direction: row;
-    justify-content: space-between;
     width: 91%;
   }
 }
 
 @media (min-width:1280px) {
   .footer {
-    flex-direction: row;
-    justify-content: space-between;
     width: 93%;
   }
 }

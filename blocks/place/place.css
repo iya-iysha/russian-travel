@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.place:last-of-type {
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .place {
     display: grid;
@@ -17,7 +21,6 @@
 
 @media (min-width: 1024px) {
   .place {
-    display: grid;
     grid-template-columns: 1fr 1.035fr;
     grid-template-rows: min-content 2.9fr;
     gap: 48px 32px;
@@ -27,10 +30,8 @@
 
 @media (min-width: 1280px) {
   .place {
-    display: grid;
     grid-template-columns: 1fr 1.05fr;
     grid-template-rows: min-content 3.03fr;
     gap: 48px 40px;
-    margin: 0 0 80px;
   }
 }

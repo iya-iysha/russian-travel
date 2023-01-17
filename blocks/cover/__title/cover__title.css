@@ -1,5 +1,4 @@
 .cover__title {
-  z-index: 2;
   position: relative;
   margin: 0 auto 16px;
   padding: 0;
@@ -10,7 +9,7 @@
   text-align: center;
 }
 
-@media screen and (min-width:768px) {
+@media (min-width:768px) {
   .cover__title {
     max-width: 73%;
     font-size: 72px;
@@ -19,20 +18,14 @@
   }
 }
 
-@media screen and (min-width:1024px) {
+@media (min-width:1024px) {
   .cover__title {
     max-width: 55%;
-    font-size: 72px;
-    line-height: 1.06;
-    margin: 0 auto 32px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   .cover__title {
     max-width: 58%;
-    font-size: 72px;
-    line-height: 1.06;
-    margin: 0 auto 32px;
   }
 }
