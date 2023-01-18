@@ -11,6 +11,7 @@
   background-image: url(../../images/__background.png);
   min-height: 200px;
   background-size: cover;
+  background-position: center;
 }
 
 .cover::before {
